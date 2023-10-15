@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codenilo - Learn to Code</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="https://th.bing.com/th/id/OIG.Kl29sKZ897LdZ6nbbCcF?w=173&h=173&c=6&r=0&o=5&dpr=1.3&pid=ImgGn"
+        type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">ShortTrick</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#qualifications">Our Qualifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comments">comment by reviewer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://theadi.netlify.app">Portfolio</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Welcome to ShortTrick</h1>
+        <p>Learn coding and web development skills with ease!</p>
+        <a href="https://linktr.ee/aadityathakur" class="btn btn-light btn-lg mt-3">Get Started</a>
+    </header>
+    <!-- Qulification -->
+    <section id="qualifications" class="container my-5">
+        <h2 class="text-center mb-4">Our Qualifications</h2>
+    
+        <div class="row">
+            <!-- Qualification 1 -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-header">Web Development</div>
+                    <div class="card-body">
+                        <p class="card-text">Certified Web Development Professionals.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Qualification 2 -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-header">Students Taught</div>
+                    <div class="card-body">
+                        <p class="card-text">Over 10,000 Students Taught.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Qualification 3 -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-header">Experience</div>
+                    <div class="card-body">
+                        <p class="card-text">5+ Years in the Education Industry.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Qualification 4 -->
+            <div class="col-md-4 mt-4">
+                <div class="card text-center">
+                    <div class="card-header">Recognition</div>
+                    <div class="card-body">
+                        <p class="card-text">Recognized by Major Tech Conferences.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Qualification 5 -->
+            <div class="col-md-4 mt-4">
+                <div class="card text-center">
+                    <div class="card-header">Course Ratings</div>
+                    <div class="card-body">
+                        <p class="card-text">Highly Rated Courses on Multiple Platforms.</p>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+
+
+  <!-- Comment Section -->
+  <section id="comments" class="container my-5">
+    <h2 class="text-center mb-4">comment by reviewer</h2>
+    
+    <div class="row">
+        <!-- Comment 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">"The courses on ShortTrick have been immensely helpful for my coding journey. Highly recommend!"</p>
+                    <footer class="blockquote-footer">John Doe</footer>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comment 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">"Their tutorials are comprehensive and easy to understand. Got me started with web development."</p>
+                    <footer class="blockquote-footer">Jane Smith</footer>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comment 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">"Top-notch content and great instructors. ShortTrick has been a valuable resource for me."</p>
+                    <footer class="blockquote-footer">Amit Verma</footer>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div style="position: fixed; bottom: 10%; right: 2%;">
+    <button class="btn btn-primary mb-2" onclick="goToTop()">Go to Top</button>
+    <button class="btn btn-secondary" onclick="goToBottom()">Go to Bottom</button>
+</div>
+<!-- Scripts -->
+<script>
+    function goToTop() {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    function goToBottom() {
+        window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
+    }
+</script>
+
+    <!-- Footer -->
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <h4>Contact us:</h4>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://github.com/theadicoder" target="_blank" class="text-white">GitHub</a></li>
+            <li class="list-inline-item"><a href="https://replit.com/@theadicoder" target="_blank" class="text-white">Replit</a></li>
+            <li class="list-inline-item"><a href="https://linktr.ee/aadityathakur" target="_blank" class="text-white">Linetree</a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/codenilo18" target="_blank" class="text-white">Twitter</a></li>
+        </ul>
+        <p class="mt-4">&copy; 2023 ShortTrick. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+
+</html>
